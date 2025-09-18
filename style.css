@@ -1,0 +1,55 @@
+
+
+
+body {
+    font-family: Arial,  sans-serif; /* Familia de fuentes */
+    font-size: 12px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #070707; /* El color del fondo de la página web */
+    color: #de0707; /* El color del texto*/ 
+    text-align: center;
+    
+}
+h1 {
+
+    color: #691b1b; /* El color de la cabecera */
+    font-size: 24px; /* El tamaño de la fuente de la cabecera */
+    font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
+    text-align: center;
+}
+h2 {
+    color: #691b1b; /* El color de la cabecera */
+    font-size: 24px; /* El tamaño de la fuente de la cabecera */
+    font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
+    text-align: center;
+}
+
+p1 {
+    color: #c01313; /* El color de la cabecera */
+    font-size: 18px; /* El tamaño de la fuente de la cabecera */
+    font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
+    text-align: center;
+}
+
+img {
+    display: block;
+  margin: auto;
+  width: 50%;
+  opacity: 50%;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 1; 
+  }
+  50% {
+    opacity: 0; 
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animated-paragraph {
+  animation: fadeInOut 4s infinite;
+
+}
